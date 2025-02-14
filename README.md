@@ -19,5 +19,7 @@
 此專案包含以下兩個程式：
 
 1. produce_consume_homework.cpp：不考慮 Race condition。
+![有Race Condition](https://github.com/user-attachments/assets/e8338bd2-038f-48eb-b0b7-88edabf8860e)
 
 2. produce_consume_homework_mutex.cpp：考慮 Race condition，當有一個執行緒在存取暫存區時，鎖住其他執行緒。
+![用mutex方式避免Race Condition](https://github.com/user-attachments/assets/9e93eca9-5494-4c34-9c47-67892d531f3f)
